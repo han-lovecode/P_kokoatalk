@@ -160,7 +160,6 @@
   width: 98vw;
   transform: translateX(-13%) translateY(-80px);
 }
-
 .reply:focus-within {
   transform: translateY(80px);
 }
