@@ -50,13 +50,17 @@
 }
 
 @keyframes makeitBig {
-  from {
+  0% {
     transform: none;
   }
-  to {
-    transform: scale(1.2);
+  50% {
+    transform: scale(1.2) rotateY(360deg);
+  }
+  100% {
+    transform: none;
   }
 }
 
 .user-component__avatar:hover {
-  animation: makeitBig 1s linear infinite forwards;
+  animation: makeitBig 2s linear infinite forwards;
+}
