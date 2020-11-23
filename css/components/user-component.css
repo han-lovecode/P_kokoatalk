@@ -1,5 +1,6 @@
 .user-component {
   justify-content: space-between;
+  margin-bottom: 25px;
 }
 .user-component,
 .user-component__column:first-child {
@@ -47,3 +48,15 @@
   margin-bottom: 10px;
   display: block;
 }
+
+@keyframes makeitBig {
+  from {
+    transform: none;
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+.user-component__avatar:hover {
+  animation: makeitBig 1s linear infinite forwards;
