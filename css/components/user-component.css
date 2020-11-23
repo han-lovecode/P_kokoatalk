@@ -54,8 +54,8 @@
     transform: none;
   }
   50% {
-    transform: scale(1.2); 
-    rotateY(360deg);
+    transform: scale(1.2);
+    transform: rotateY(360deg);
   }
   100% {
     transform: none;
